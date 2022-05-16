@@ -5,7 +5,7 @@ module.exports = {
   execute: async function(m, a) {
     const args = m.content.split(' ');
     const member = m.guild.members.cache.find(mem => 
-      mem.id === args[1] || mem.user.tag === args[1] || mem.user.id === args[1]?.slice(2).slice(0, -1));
+      mem.user.id === args[1] || mem.user.tag === args[1] || mem.user.id === args[1]?.slice(2).slice(0, -1));
 
     if(!member)
       return m.reply('You must provide a valid UserID/Tag/Mention !');

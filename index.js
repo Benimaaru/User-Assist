@@ -8,7 +8,8 @@ const {
 const acc = new Client({ //acc stands for account
   intents: [
     Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_MESSAGES
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_MEMBERS
   ]
 });
 
