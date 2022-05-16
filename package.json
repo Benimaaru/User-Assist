@@ -1,0 +1,21 @@
+{
+  "name": "user-assist",
+  "version": "1.0.0",
+  "description": "The best self assistant for discord!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "useatyourownrisk",
+    "selfbot",
+    "discord",
+    "bot"
+  ],
+  "author": "KarioTheCoder",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2",
+    "discord.js-selfbot-v13": "^2.0.0"
+  }
+}
