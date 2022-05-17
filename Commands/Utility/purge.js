@@ -5,7 +5,7 @@ module.exports = {
   execute: async function(m, a) {
     const args = m.content.split(' ');
     const amount = Number(args[1]);
-    if(!amount || amount < 1 || amount > 49 || Math.ceil(amount) !== amount)
+    if(!amount || amount < 1 || amount > 50 || Math.ceil(amount) !== amount)
       return m.reply('The amount must be a valid integer from 1 to 50!');
 
     const fetched = await m.channel.messages.fetch({limit: amount});
